@@ -1,0 +1,15 @@
+[submodule "modules/URL-Shortener-shortener"]
+	path = modules/URL-Shortener-shortener
+	url = https://github.com/DanielCorreaV/URL-Shortener-shortener
+[submodule "modules/URL-Shortener-redirector"]
+	path = modules/URL-Shortener-redirector
+	url = https://github.com/DanielCorreaV/URL-Shortener-front-shorter-redirector
+[submodule "modules/URL-Shortener-stats"]
+	path = modules/URL-Shortener-stats
+	url = https://github.com/DanielCorreaV/URL-Shortener-front-shorter-stats
+[submodule "modules/frontend/URL-Shortener-front-stats"]
+	path = modules/frontend/URL-Shortener-front-stats
+	url = https://github.com/DanielCorreaV/URL-Shortener-front-shorter-front-stats
+[submodule "modules/frontend/URL-Shortener-front-shorter-redirector"]
+	path = modules/frontend/URL-Shortener-front-shorter-redirector
+	url = https://github.com/DanielCorreaV/URL-Shortener-front-shorter-front-shorter-redirector
