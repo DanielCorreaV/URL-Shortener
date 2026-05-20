@@ -15,6 +15,22 @@ resource "aws_dynamodb_table" "shared_url_table" {
   }
 }
 
+resource "aws_dynamodb_table" "users_table" {
+  name           = "url-shortener-users"
+  billing_mode   = "PAY_PER_REQUEST"
+  hash_key       = "username"
+
+  attribute {
+    name = "username"
+    type = "S"
+  }
+
+  tags = {
+    Environment = "Shared"
+    Project     = "URL-Shortener"
+  }
+}
+
 # API Gateway
 resource "aws_apigatewayv2_api" "shared_api" {
   name          = "shared-url-shortener-api"
