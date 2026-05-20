@@ -17,7 +17,7 @@
 
 [submodule "modules/URL-Shortener-auth"]
 	path = modules/URL-Shortener-auth
-	url = https://github.com/DanielCorreaV/URL-Shortener-shorter-auth
+	url = https://github.com/DanielCorreaV/URL-Shortener-auth
 [submodule "modules/frontend/URL-Shortener-init"]
 	path = modules/frontend/URL-Shortener-init
 	url = https://github.com/DanielCorreaV/URL-Shortener-init
